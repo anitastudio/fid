@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
-  font-family: Georgia, serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
@@ -12,11 +13,9 @@ header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
-  background: url(images0/gooseshadow.png) center top repeat-x;
-  background:
-    url(images0/gooseshadow.png) left top repeat-y,
-    url(images0/gooseshadow.png) right top repeat-y,
-    url(images0/gooseshadow.png) 90% bottom no-repeat;
+  background: url(images0/gooseshadow.png) left top repeat-y,
+  url(images0/gooseshadow.png) right top repeat-y,
+  url(images0/gooseshadow.png) 90% bottom no-repeat;
   background-color: #dbe9ff;
 }
 a {
@@ -42,12 +41,12 @@ a:active {
 }
 
 h1 {
-  font: bold 1.5em Georgia, serif;
+  font: bold 3em 'Open Sans', sans-serif;
   color: #d1633c;
   text-shadow: .1em .1em .2em gray;
 }
 h2 {
-  font-size: 1em;
+  font-size: 1.25em;
   text-transform: uppercase;
   letter-spacing: .5em;
   text-align: center;
