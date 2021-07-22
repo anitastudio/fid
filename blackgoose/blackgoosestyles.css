@@ -15,17 +15,17 @@ a {
   text-decoration: none;
 }
 a:link {
-  color: #000;
+  color: #d1633c;
 }
 a:visited {
   color: gray;
 }
 a:focus {
-  color: #000;
+  color: teal;
   background-color: #fff;
 }
 a:hover {
-  color: #d1633c;
+  color: teal;
   background-color:#fff;
 }
 a:active {

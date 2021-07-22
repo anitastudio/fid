@@ -25,15 +25,15 @@ a:link {
   color: #d1633c;
 }
 a:visited {
-  color: #937393
+  color: gray;
 }
 a:focus {
-  color: #d1633c;
+  color: teal;
   background-color: #fff;
 }
 a:hover {
-  color: #d1633c;
-  background-color: #fff;
+  color: teal;
+  background-color:#fff;
 }
 a:active {
   color: #d1633c;
