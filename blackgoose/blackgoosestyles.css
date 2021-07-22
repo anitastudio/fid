@@ -32,7 +32,6 @@ a:active {
   color: #d1633c;
   background-color: #fff;
 }
-
 h1 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -47,6 +46,12 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
+}
+h3 {
+  color: teal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 dt {
   font-weight: bold;
