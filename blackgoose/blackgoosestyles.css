@@ -3,12 +3,13 @@ body {
   background-color: #c7dcff;
   font-family: 'Open Sans', sans-serif;
   font-size: 100%;
-  margin: 0 20%
-}
+  margin: 0 20%;
+  }
 header {
     margin-top: 0;
     padding: 3em 1em 2em 1em;
     text-align: center;
+    background: url(images0/gooseshadow.png) 95% bottom no-repeat;
     background-color: #dbe9ff;
 }
 a {
@@ -38,14 +39,14 @@ h1 {
   font-weight: bold;
   font-size: 3em;
   text-transform: uppercase;
-  border-bottom: 1px solid #57b1dc;
-  margin-top: 30px;
 }
 h2 {
   color: #d1633c;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  font-size: 1.25em;
 }
 h3 {
   color: teal;
@@ -81,11 +82,11 @@ ul {
 }
 footer {
   border-top: 1px solid #57b1dc;
-  text-align: right;
+  text-align: center;
   padding-top: 1em;
 }
 div{
-  text-align: right;
+  text-align: center;
 }
 div img{
   width: 200px;
