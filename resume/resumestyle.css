@@ -6,10 +6,13 @@ body {
   margin: 0 20%;
 }
 header {
-  background: url(svg/logo_web.svg) no-repeat center center;
-  background-size: 50%;
-  height: 15em;
+  background:  url(svg/logo_web.svg) no-repeat center center;
+  background-size: cover;
+  background-clip: content-box;
+  text-align: center;
+  height: 20em;
   border-bottom: 2px solid #1A5276;
+  max-width: 100%;
 }
 header p {
   text-align: center;
@@ -76,28 +79,7 @@ ul {
   list-style: square;
   color: #1A5276;
 }
-#skills, #software {
+#skills, #software, #projects, #socialmedia{
   text-align: left;
   margin-left: 10%;
-}
-caption {
-  background-color: #c2d99c;
-  padding: 1em 15em 1em 15em;
-  font-family: 'Montserrat', sans-serif;
-  color: #1A5276;
-  font-weight: bold;
-  font-size: 1.25em;
-  letter-spacing: .25em;
-  text-align: center;
-}
-.center {
-  background-color: #c2d99c;
-  padding-left: 15%;
-  padding-right: 15%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 4em;
-}
-footer {
-  text-align: center;
 }

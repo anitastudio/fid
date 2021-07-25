@@ -6,10 +6,13 @@ body {
   margin: 0 20%;
 }
 header {
-  background: url(svg/logo_web.svg) no-repeat center center;
-  background-size: 50%;
-  height: 15em;
+  background:  url(svg/logo_web.svg) no-repeat center center;
+  background-size: cover;
+  background-clip: content-box;
+  text-align: center;
+  height: 20em;
   border-bottom: 2px solid #1A5276;
+  max-width: 100%;
 }
 header p {
   text-align: center;
