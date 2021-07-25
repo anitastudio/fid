@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+  background-color: #E5E8E8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  margin: 0 20%;
+}
+header {
+  background: url(svg/logo_web.svg) no-repeat center center;
+  background-size: 50%;
+  height: 15em;
+  border-bottom: 2px solid #1A5276;
+}
+header p {
+  text-align: center;
+  color: #1A5276;
+  font-family: 'Alata', sans-serif;
+  font-size: 3em;
+  letter-spacing: .5em;
+  padding: 2em 1em 2em 1em;
+}
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h2 {
+  color: #1A5276;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  text-align: left;
+  letter-spacing: .25em;
+  border-top: 1px solid #c2d99c;
+  border-bottom: none;
+  border-left: 1px solid;
+  border-right: none;
+  padding: 1em 10em 1em 1em;
+  margin-right: 12%;
+  }
+h3 {
+  color: #1A5276;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+h4 {
+  color: #1A5276;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  text-align: center;
+  letter-spacing: .25em;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #1A5276;
+}
+a:visited {
+  color: gray;
+}
+a:focus {
+  color: #c2d99c;
+}
+a:hover {
+  color:#c2d99c;
+}
+a:active {
+  color: #1A5276;
+}
+ul {
+  list-style: square;
+  color: #1A5276;
+}
+#skills, #software {
+  text-align: left;
+  margin-left: 10%;
+}
+caption {
+  background-color: #c2d99c;
+  padding: 1em 15em 1em 15em;
+  font-family: 'Montserrat', sans-serif;
+  color: #1A5276;
+  font-weight: bold;
+  font-size: 1.25em;
+  letter-spacing: .25em;
+  text-align: center;
+}
+.center {
+  background-color: #c2d99c;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4em;
+}
+footer {
+  text-align: center;
+}
