@@ -6,15 +6,17 @@ body {
   margin: 0 20%;
 }
 header {
-  background:  url(svg/logo_web.svg) no-repeat center center;
+  flex: 1 1 auto;
+  background: url(svg/logo_web.svg) no-repeat center center;
   background-size: cover;
   background-clip: content-box;
-  text-align: center;
   height: 20em;
   border-bottom: 2px solid #1A5276;
+  padding: 3em 1em 2em 1em;
   max-width: 100%;
 }
 header p {
+  flex: 1 1 auto;
   text-align: center;
   color: #1A5276;
   font-family: 'Alata', sans-serif;
@@ -84,8 +86,10 @@ div {
   padding-right: 10%;
 }
 main {
-  display: flex;
+  flex: 1 1 auto;
   justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 footer {
 text-align: left;
