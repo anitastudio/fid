@@ -6,7 +6,8 @@ body {
   margin: 0 20%;
 }
 header {
-  background:  url(svg/logo_web.svg) no-repeat center center;
+  flex: 1 1 auto;
+  background: url(svg/logo_web.svg) no-repeat center center;
   background-size: cover;
   background-clip: content-box;
   text-align: center;
@@ -16,6 +17,7 @@ header {
   max-width: 100%;
 }
 header p {
+  flex: 1 1 auto;
   text-align: center;
   color: #1A5276;
   font-family: 'Alata', sans-serif;
