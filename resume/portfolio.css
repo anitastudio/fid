@@ -60,6 +60,11 @@ a:hover {
 a:active {
   color: #1A5276;
 }
+img {
+  box-sizing: border-box;
+  padding: 0em 5em 0em 5em;
+  max-width: 100%;
+}
 .class {
   display: flex;
   justify-content: center;
