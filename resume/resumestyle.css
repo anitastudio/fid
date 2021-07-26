@@ -7,7 +7,7 @@ body {
 }
 header {
   flex: 1 1 auto;
-  background: url(svg/logo_web.svg) no-repeat center center;
+  background: url(svg/logo_web.svg) no-repeat center;
   background-size: cover;
   background-clip: content-box;
   height: 20em;
